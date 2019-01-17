@@ -2,7 +2,7 @@
 Instructions to compile adcirpolate on Lonestar5:
 1.	First you will need to install the esmf library. The correct version can be found as a zip file on github at https://github.com/Markloveland/Adcirpolate along with a zip file of the adcirpolate code if you have not yet obtained it
 2.	Copy the esmf zip file onto lonestar5 and create a directory titled esmf alongside the zip file
-3.	Unzip the zip file into the esmf file by typing “unzip esmf….zip -d esmf”
+3.	Unzip the zip file into the esmf file by typing “unzip esmf_6_3_ls5.zip -d esmf”
 4.	Go into the esmf directory and copy/paste all the lines in the envs.txt onto the command line in order to set all necessary environmental variables
 5.	Type make, this should successfully install esmf
 Note: You can create a debugging version of esmf by changing the ESMF_BOPT from “O” to “g” in th envs.txt file
@@ -17,5 +17,8 @@ this is your fortran compiler
 cmake .
 make 
 and the adcirpolate executable should be generated
+
+Instructions to compile adcirpolate on Stampede2:
+Same as above except when unzipping folder, just type "unzip esmf_6_3_stampede2.zip" instead of "unzip esmf....zip -d esmf"
 
 
