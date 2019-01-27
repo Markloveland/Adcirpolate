@@ -6,7 +6,7 @@ Instructions to compile adcirpolate on Lonestar5 and Stampede2:
 4.	Go into the esmf directory and copy/paste all the lines in the envs.txt or env_vars onto the command line in order to set all necessary environmental variables
 5.	Type make, this should successfully install esmf
 Note: You can create a debugging version of esmf by changing the ESMF_BOPT from “O” to “g” in th envs.txt file
-6.	Now that esmf is installed we can now build adcirpolate, first unzip the adcirpolate-master.zip
+6.	Now that esmf is installed we can now build adcirpolate, first unzip the adcirpolate.zip
 7.	Before compiling, 2 environmental variables must be set:
 export ESMF_CONFIG_FILE=path to esmf.mk
 The path to the esmf.mk file should be located inside the lib folder of esmf, something like the following:
