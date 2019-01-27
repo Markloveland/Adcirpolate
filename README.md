@@ -14,8 +14,10 @@ The path to the esmf.mk file should be located inside the lib folder of esmf, so
 export FC=mpif90
 this is your fortran compiler
 8.	Then enter into the adcirpolate folder and type:
+``` 
 cmake .
-make 
+make
+```
 and the adcirpolate executable should be generated
 
 
